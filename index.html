@@ -8,18 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
     <title>Mini Portfólio</title>
 </head>
 
 <body>
     <main class="card">
-        <div class="my-informations"></div>
-        <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
-        <h1 class="nome">Wesley Alves Lima</h1>
-        <h2 class="cargo">Desenvolvedor Full Stack Pleno</h2>
+
+        <div class="my-informations">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Wesley Alves Lima</h1>
+            <h2 class="cargo">Desenvolvedor Full Stack Pleno</h2>
+        </div>
+
         <div class="content">
             <ul class="tabs">
-                <li class="tab">
+                <li class="tab selected">
                     <img src="./src/imagens/sobre.gif" alt="ícone sobre mim">
                 </li>
                 <li class="tab">
@@ -28,9 +33,9 @@
             </ul>
 
             <div class="informations-tabs">
-                <div class="information">
-                    <h3 class="sub-titulo">Sobre</h3>
+                <div class="information selected">
 
+                    <h3 class="sub-title">Sobre</h3>
                     <div class="description">
                         <p>Oi! meu nome é Wesley Alves, seja bem-vindo(a)!</p>
                         <p>
@@ -42,23 +47,24 @@
                             jogar MMO RPG, ver animes e séries.
                         </p>
                     </div>
-
-                    <div class="information">
-                        <h3 class="sub-titulo">Minhas redes</h3>
-                        <ul class="redes-sociais">
-                            <li>
-                                <a href="https://www.linkedin.com/in/wesley-alves-225071174/" target="_blank"
-                                    class="curriculo">Curriculo</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/wess223" target="_blank" class="linkedIn">LinkedIn</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/wess223" target="_blank" class="github">GitHub</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
+
+                <div class="information">
+                    <h3 class="sub-title">Minhas redes</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.linkedin.com/in/wesley-alves-225071174/" target="_blank"
+                                class="curriculo">Curriculo</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/wess223" target="_blank" class="linkedIn">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/wess223" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </main>
