@@ -1,5 +1,5 @@
 body {
-    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url(../imagens/bg-site.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,9 +17,10 @@ body {
 .card {
     background-color: #070D12;
     width: 370px;
-    border: 2px solid #E126D9;
+    /* border: 2px solid #E126D9; */
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 1px 3px 7px 3px #DD22B8;
 }
 
 .tabs img {
