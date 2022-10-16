@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/styles.css">
     <title>Mini Portfólio</title>
@@ -24,17 +26,16 @@
 
         <div class="content">
             <ul class="tabs">
-                <li class="tab selected">
+                <li class="tab selected" id="about-me">
                     <img src="./src/imagens/sobre.gif" alt="ícone sobre mim">
                 </li>
-                <li class="tab">
+                <li class="tab" id="my-networks">
                     <img src="./src/imagens/coracao.gif" alt="ícone redes sociais">
                 </li>
             </ul>
 
             <div class="informations-tabs">
-                <div class="information selected">
-
+                <div class="information selected" id="information-about-me">
                     <h3 class="sub-title">Sobre</h3>
                     <div class="description">
                         <p>Oi! meu nome é Wesley Alves, seja bem-vindo(a)!</p>
@@ -49,7 +50,7 @@
                     </div>
                 </div>
 
-                <div class="information">
+                <div class="information" id="information-my-networks">
                     <h3 class="sub-title">Minhas redes</h3>
                     <ul class="redes-sociais">
                         <li>
@@ -68,6 +69,9 @@
             </div>
         </div>
     </main>
+    <script src="./src/js/index.js">
+
+    </script>
 </body>
 
 </html>
