@@ -38,6 +38,8 @@ body {
 .card .my-informations img {
     border-radius: 50px;
     border: 4px solid #02D08F;
+    width: 100px;
+    height: 100px;
 }
 
 .card .my-informations .name {
